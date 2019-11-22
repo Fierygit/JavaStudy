@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jboss-javassist-javassist-19a64dd">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../JavaSrc/jboss-javassist-javassist-19a64dd" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../JavaSrc/jboss-javassist-javassist-19a64dd" />
+      <root url="file://$PROJECT_DIR$/../JavaSrc/jboss-javassist-javassist-19a64dd/src/main" />
+      <root url="file://$PROJECT_DIR$/../JavaSrc/jboss-javassist-javassist-19a64dd/src/test" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../JavaSrc/jboss-javassist-javassist-19a64dd" recursive="false" />
+  </library>
+</component>
