@@ -22,7 +22,7 @@ public class Test {
 
         //定义变量，存储到引擎的上下文中
         engine.put("msg", "firefly1");
-        String str = "var user = { name : 'firefly', age : 19 };";
+        String str = "var user = { name : 'Firefly', age : 19 };";
         str += "print(user.age);";
 
        //执行脚本

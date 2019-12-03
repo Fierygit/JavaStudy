@@ -17,13 +17,13 @@ public class ConcreteCommandA extends Command {
 
     @Override
     public void execute(String string) {
-        receiverA.receive("commandAAA exe "+string);
-        receiverB.receive("commandAAA exe "+ string);
+        receiverA.receive("commandAAA exe " + string);
+        receiverB.receive("commandAAA exe " + string);
     }
 
     @Override
     public void undo(String string) {
-        receiverA.receive("commandAAA undo"+string);
-        receiverB.receive("commandAAA undo"+string);
+        receiverA.receive("commandAAA undo" + string);
+        receiverB.receive("commandAAA undo" + string);
     }
 }

@@ -47,7 +47,7 @@ class ThreadDemo extends Thread {
 	}
 
 	public static void main(String[] args) {
-		ThreadDemo  t1 = new ThreadDemo("firefly");
+		ThreadDemo  t1 = new ThreadDemo("Firefly");
 		t1.start();
 		ThreadDemo  t2 = new ThreadDemo("five");
 		t2.start();
