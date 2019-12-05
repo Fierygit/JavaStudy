@@ -1,4 +1,4 @@
-package testHttp;
+package Basic.Http;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 
-class test{
+class Test {
 	public static String SendGet(String url) {
 	    String result = "";
 	    BufferedReader in = null;
@@ -63,7 +63,7 @@ class test{
 		
 		for(int i  = 0 ; i < 10; i++) {
 			
-			new Thread(test.SendGet("http://statistics.pandadastudio.com/player/giftCode?uid=814897167&code=he")).start();
+			new Thread(Test.SendGet("http://statistics.pandadastudio.com/player/giftCode?uid=814897167&code=he")).start();
 		}
 		
 		

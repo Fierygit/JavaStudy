@@ -1,5 +1,7 @@
 package Algorithms.Sort;
 
+
+import java.util.Arrays;
 import java.util.Date;
 import java.util.Random;
 
@@ -21,6 +23,12 @@ public class Test {
     public static void main(String[] args) {
 
 
+        Integer[] a= getData(10000000);
+        long start = new Date().getTime();
+        Arrays.sort(a);
+        long end = new Date().getTime();
+        System.out.println(end - start);
+
         testall(1, 10000000);
         // test();
     }
@@ -33,6 +41,7 @@ public class Test {
         Selection.sort(a);
         System.out.println("selection sort:");
         Util.show(a);
+
 
 
         Util.reverse(a);
@@ -73,7 +82,7 @@ public class Test {
             time[4] += testTime("Selection", temp);
         }
 
-
+        System.out.println("Merge: " + time[0]);
         System.out.println("Quick: " + time[1]);
         System.out.println("Shell: " + time[2]);
         System.out.println("Insertion: " + time[3]);
